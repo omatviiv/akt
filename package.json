@@ -1,0 +1,19 @@
+{
+  "name": "akt",
+  "version": "0.0.0",
+  "description": "an app to generate monthly activity reports",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omatviiv/akt.git"
+  },
+  "author": "Oleh Matviiv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omatviiv/akt/issues"
+  },
+  "homepage": "https://github.com/omatviiv/akt#readme"
+}
