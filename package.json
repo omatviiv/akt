@@ -2,8 +2,11 @@
   "name": "akt",
   "version": "0.0.0",
   "description": "an app to generate monthly activity reports",
-  "main": "index.mjs",
+  "main": "src/index.mjs",
+  "bin": "./src/index.mjs",
   "scripts": {
+    "akt": "node ./src/index.mjs",
+    "akt-init": "node ./src/index.mjs init",
     "test": "jest"
   },
   "repository": {
@@ -15,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/omatviiv/akt/issues"
   },
-  "homepage": "https://github.com/omatviiv/akt#readme"
+  "homepage": "https://github.com/omatviiv/akt#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "commander": "^9.4.0"
+  }
 }
