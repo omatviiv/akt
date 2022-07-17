@@ -8,10 +8,15 @@
 
 # Akt working directory
 ~/akt
+
 | data.yml
+
 | 06-2022.yml <- data file backup for June of 2022
+
 | 06-2022.pdf <- generated akt for June of 2022
+
 | 05-2022.yml <- data file backup for May of 2022
+
 | 05-2022.pdf <- generated akt for May of 2022
 
 
